@@ -1,0 +1,18 @@
+export const noChangeParts = [
+    "Object_16",
+    "object_37",
+    "Object_34",
+    "Object_12",
+    "object_80",
+    "Object_35",
+    "object_36",
+    "Object_13",,
+    "object_125",
+    "Object_76",
+    "Object_33",
+    "object_42",
+    "Object_58",
+    "Object_52",
+    "object_21",
+    "Object_10",
+];
