@@ -1,5 +1,6 @@
 import Hero from './components/Hero'
 import NavBar from './components/NavBar'
+import ProductView from './components/ProductView'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <main>
       <NavBar />
       <Hero />
+      <ProductView />
     </main>
   )
 }
