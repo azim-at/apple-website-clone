@@ -4,6 +4,7 @@ import useMacbookStore from '../store'
 import clsx from 'clsx';
 import { Box, OrbitControls } from '@react-three/drei';
 import MacbookModel14 from './models/Macbook-14';
+import StudioLights from './StudioLights';
 
 const ProductView = () => {
 
@@ -46,7 +47,7 @@ const ProductView = () => {
 
        <Canvas id='canvas' camera={ {position: [0,2 ,5], fov: 50, near:0.1, far: 100} }>
         {/* 3D model will go here */}
-        <ambientLight intensity={5} />
+        <StudioLights />
         <MacbookModel14 scale={0.06} position={[0, 0, 0]} />
         <OrbitControls enableZoom={false}/>
        </Canvas>
